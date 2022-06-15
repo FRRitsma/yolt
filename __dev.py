@@ -1,4 +1,4 @@
-# Script used during dev of yolt assignemnt
+#%% Script used during dev of yolt assignemnt
 """
 Build a python program that trains a classifier on the iris dataset, e.g. using sklearn.datasets ,
 and displays the model performance.
@@ -10,7 +10,6 @@ from sklearn.neighbors import KNeighborsClassifier
 import numpy as np
 from sklearn import datasets
 from sklearn.decomposition import PCA
-
 
 #%% User Defined Variables
 train_fraction = .7
@@ -35,6 +34,7 @@ y = data['target']
 print(X.shape, y.shape)
 print(len(np.unique(y)))
 print(np.mean(X,axis=0), np.std(X,axis=0))
+
 """
 Low amount of samples and low amount of dimensions.
 Next steps:
@@ -73,4 +73,3 @@ sklearn.metrics.confusion_matrix(y_test, y_pred)
 """
 And just like that, it seems the problem is solved. Not a single classification error.
 """
-
