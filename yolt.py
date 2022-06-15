@@ -1,13 +1,3 @@
-# # Try imports:
-# try:
-#     import numpy as np
-#     from sklearn.neighbors import KNeighborsClassifier
-#     import numpy as np
-#     from sklearn import datasets
-#     from sklearn.decomposition import PCA
-# except:
-
-
 #%% Import modules:
 import sklearn
 from sklearn.neighbors import KNeighborsClassifier
